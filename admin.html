@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Admin — FitWell Education</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="admin" class="admin-body">
+  <div id="login-view" class="admin-login">
+    <h1>Site Admin</h1>
+    <p>Enter the admin password to edit website content.</p>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required autocomplete="current-password">
+      </div>
+      <button type="submit" class="btn btn-accent" style="width:100%;">Log In</button>
+    </form>
+    <p style="margin-top:1.5rem;font-size:0.85rem;color:#64748b;">
+      <a href="index.html">← Back to site</a>
+    </p>
+  </div>
+
+  <div id="admin-view" class="admin-panel hidden">
+    <h1>Content Editor</h1>
+    <p style="color:#64748b;margin-bottom:1rem;">Edit content below, then save or export to update the live site.</p>
+
+    <div id="status-msg" class="admin-notice hidden"></div>
+
+    <div class="admin-notice">
+      <strong>How publishing works:</strong> Click <em>Save Locally</em> to preview changes in your browser.
+      Click <em>Export JSON</em> to download the updated file, then replace <code>data/content.json</code> in your GitHub repo and push.
+      That updates the site for all visitors on GitHub Pages.
+    </div>
+
+    <div class="admin-toolbar">
+      <button type="button" id="save-btn" class="btn btn-accent">Save Locally</button>
+      <button type="button" id="export-btn" class="btn btn-outline">Export JSON</button>
+      <button type="button" id="import-btn" class="btn btn-outline">Import JSON</button>
+      <input type="file" id="import-file" accept=".json" class="hidden">
+      <button type="button" id="reset-btn" class="btn btn-outline">Reset to Default</button>
+      <button type="button" id="logout-btn" class="btn btn-sm" style="margin-left:auto;">Log Out</button>
+    </div>
+
+    <div id="editor"></div>
+
+    <p style="margin-top:2rem;font-size:0.85rem;">
+      <a href="index.html">← View public site</a>
+    </p>
+  </div>
+
+  <script src="js/content-loader.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+{
+  "site": {
+    "title": "FitWell Education",
+    "tagline": "Evidence-based exercise & nutrition for everyone",
+    "about": "FitWell Education helps the general public understand exercise science and nutritional principles through clear, practical guidance — no jargon, no gimmicks."
+  },
+  "home": {
+    "heroTitle": "Learn the Science of Fitness & Nutrition",
+    "heroSubtitle": "Free, accessible education on training, nutrition, and lifestyle habits — tailored for real people with real schedules.",
+    "highlights": [
+      {
+        "icon": "🏋️",
+        "title": "Training Routines",
+        "description": "Structured workout plans for beginners through advanced, with clear progressions.",
+        "link": "training.html"
+      },
+      {
+        "icon": "🥗",
+        "title": "Nutritional Goals",
+        "description": "Understand macros, meal timing, and sustainable eating patterns.",
+        "link": "nutrition.html"
+      },
+      {
+        "icon": "🌿",
+        "title": "Lifestyle Management",
+        "description": "Guidance adapted to students, professionals, parents, and seniors.",
+        "link": "lifestyle.html"
+      },
+      {
+        "icon": "🎓",
+        "title": "Free Lectures",
+        "description": "Watch expert talks on exercise physiology, nutrition, and health.",
+        "link": "lectures.html"
+      },
+      {
+        "icon": "📋",
+        "title": "Health Summaries",
+        "description": "Plain-language summaries of current health and fitness research.",
+        "link": "health-info.html"
+      },
+      {
+        "icon": "✍️",
+        "title": "Blog",
+        "description": "Articles, tips, and updates from our education team.",
+        "link": "blog.html"
+      }
+    ]
+  },
+  "training": {
+    "intro": "These sample routines are designed to build strength, endurance, and mobility. Always consult a healthcare provider before starting a new exercise program.",
+    "routines": [
+      {
+        "title": "Beginner Full-Body (3x/week)",
+        "level": "Beginner",
+        "duration": "30–40 minutes",
+        "description": "A balanced introduction to resistance training using bodyweight and light weights.",
+        "exercises": ["Bodyweight squats — 3×12", "Push-ups (knee or wall) — 3×10", "Dumbbell rows — 3×10", "Plank — 3×30 sec", "Brisk walk — 10 min cooldown"]
+      },
+      {
+        "title": "Intermediate Strength Split",
+        "level": "Intermediate",
+        "duration": "45–60 minutes",
+        "description": "Upper/lower split focusing on compound lifts with progressive overload.",
+        "exercises": ["Barbell squat — 4×6", "Bench press — 4×6", "Romanian deadlift — 3×8", "Overhead press — 3×8", "Core circuit — 10 min"]
+      },
+      {
+        "title": "Active Recovery & Mobility",
+        "level": "All levels",
+        "duration": "20–30 minutes",
+        "description": "Low-intensity movement to support recovery between harder training days.",
+        "exercises": ["Dynamic stretching — 5 min", "Yoga flow — 15 min", "Foam rolling — 10 min", "Light walking — optional"]
+      }
+    ]
+  },
+  "nutrition": {
+    "intro": "Nutrition supports your training and daily energy. These goals focus on sustainable habits rather than restrictive diets.",
+    "goals": [
+      {
+        "title": "Balanced Daily Intake",
+        "description": "Aim for a plate that includes lean protein, whole grains, healthy fats, and plenty of vegetables at most meals.",
+        "tips": ["Fill half your plate with vegetables", "Include protein at every meal", "Choose whole grains over refined carbs", "Stay hydrated — roughly 8 cups of water daily"]
+      },
+      {
+        "title": "Muscle Building Support",
+        "description": "Adequate protein and calories help repair and grow muscle tissue after resistance training.",
+        "tips": ["Target 1.6–2.2 g protein per kg body weight", "Eat protein within 2 hours post-workout", "Don't fear carbohydrates — they fuel training", "Prioritize sleep for recovery"]
+      },
+      {
+        "title": "Weight Management",
+        "description": "Sustainable weight change comes from consistent calorie balance combined with regular activity.",
+        "tips": ["Focus on whole, minimally processed foods", "Track portions without obsessing over numbers", "Build movement into daily life", "Avoid extreme restriction — it rarely lasts"]
+      }
+    ]
+  },
+  "lifestyle": {
+    "intro": "Fitness looks different depending on your background, schedule, and responsibilities. Find guidance that fits your life.",
+    "profiles": [
+      {
+        "title": "Busy Professionals",
+        "description": "Limited time doesn't mean limited results. Short, efficient workouts and meal prep strategies work best.",
+        "recommendations": ["20-minute HIIT or circuit training 3×/week", "Batch-cook proteins and grains on weekends", "Walk during phone calls or meetings", "Set a consistent bedtime for recovery"]
+      },
+      {
+        "title": "Students",
+        "description": "Budget-friendly nutrition and flexible training that fits around classes and study sessions.",
+        "recommendations": ["Use campus gym or bodyweight workouts", "Buy frozen vegetables and bulk grains", "Study breaks = movement breaks", "Limit late-night snacking with planned meals"]
+      },
+      {
+        "title": "Parents & Caregivers",
+        "description": "Integrate family activity and realistic meal planning when time and energy are scarce.",
+        "recommendations": ["Family walks or bike rides after dinner", "Simple one-pot meals with balanced macros", "Exercise during naptime or early mornings", "Involve kids in meal prep when possible"]
+      },
+      {
+        "title": "Older Adults (55+)",
+        "description": "Focus on strength, balance, and bone health with safe, progressive programming.",
+        "recommendations": ["Resistance training 2–3×/week for bone density", "Balance exercises daily (single-leg stands, tai chi)", "Adequate protein to prevent muscle loss", "Consult your doctor before new programs"]
+      }
+    ]
+  },
+  "lectures": {
+    "intro": "Watch these free educational videos to deepen your understanding of exercise and nutrition science.",
+    "videos": [
+      {
+        "title": "Introduction to Exercise Physiology",
+        "description": "How your body adapts to training — from muscle fibers to cardiovascular changes.",
+        "url": "https://www.youtube.com/embed/6Z15_O_WBJY",
+        "duration": "12 min"
+      },
+      {
+        "title": "Nutrition Basics: Macros & Micronutrients",
+        "description": "A clear overview of proteins, carbs, fats, vitamins, and minerals.",
+        "url": "https://www.youtube.com/embed/6Z15_O_WBJY",
+        "duration": "18 min"
+      },
+      {
+        "title": "Sleep, Stress & Recovery",
+        "description": "Why rest is just as important as your workouts for long-term health.",
+        "url": "https://www.youtube.com/embed/6Z15_O_WBJY",
+        "duration": "15 min"
+      }
+    ]
+  },
+  "healthInfo": {
+    "intro": "Quick, evidence-informed summaries of topics that matter for your health and fitness journey.",
+    "summaries": [
+      {
+        "title": "How Much Exercise Do Adults Need?",
+        "summary": "The WHO recommends at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity per week, plus muscle-strengthening activities on 2 or more days.",
+        "source": "World Health Organization — Physical Activity Guidelines"
+      },
+      {
+        "title": "Protein & Muscle Protein Synthesis",
+        "summary": "Consuming 20–40g of high-quality protein per meal maximally stimulates muscle repair. Spreading intake across the day is more effective than one large dose.",
+        "source": "International Society of Sports Nutrition"
+      },
+      {
+        "title": "The Role of Fiber",
+        "summary": "Dietary fiber supports gut health, helps manage blood sugar, and is associated with lower cardiovascular disease risk. Aim for 25–38g daily from whole food sources.",
+        "source": "Academy of Nutrition and Dietetics"
+      },
+      {
+        "title": "Resistance Training & Bone Health",
+        "summary": "Weight-bearing and resistance exercises stimulate bone formation and help prevent osteoporosis, especially important for women over 50 and older adults.",
+        "source": "National Osteoporosis Foundation"
+      }
+    ]
+  },
+  "blog": {
+    "intro": "Articles, practical tips, and updates from the FitWell Education team.",
+    "posts": [
+      {
+        "title": "Starting Strong: Your First Week of Training",
+        "date": "July 15, 2026",
+        "excerpt": "New to exercise? Here's how to build a habit that sticks without burning out.",
+        "content": "The first week is about showing up, not perfection. Choose two or three days for short workouts, focus on form over intensity, and celebrate consistency. Rest days are part of the plan — your body needs time to adapt."
+      },
+      {
+        "title": "Meal Prep Without the Overwhelm",
+        "date": "July 8, 2026",
+        "excerpt": "Simple strategies to eat well during a busy week without spending your entire Sunday in the kitchen.",
+        "content": "Start with one protein, one grain, and one vegetable batch-cooked on the weekend. Mix and match through the week. Keep healthy snacks visible — cut fruit, nuts, yogurt — so convenience foods aren't your only option."
+      },
+      {
+        "title": "Why Rest Days Matter",
+        "date": "July 1, 2026",
+        "excerpt": "Recovery isn't lazy — it's when your body actually gets stronger.",
+        "content": "Muscle repair, hormone balance, and nervous system recovery all happen during rest. Active recovery like walking or stretching can help, but avoid stacking intense sessions back-to-back without adequate sleep and nutrition."
+      }
+    ]
+  }
+}
